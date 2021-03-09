@@ -7,29 +7,60 @@
     </head>
     
     <body>
+        <!--Top navigation links-->
         <nav id="navbar">
-            <a href="#about" class="nav-link">About</a>
-            <a href="#store" class="nav-link">Store</a>
-            
-            
-            <button type="button" class="right-nav-link">Sign in</button> 
-            
-            
-            <img src="images/dot-grid.png" id="apps-icon" alt="Apps menu icon" class="right-nav-link">
-            <a href="#images" class="right-nav-link">Images</a>
-            <a href="#gmail" class="right-nav-link">Gmail</a>
+            <!--Links aligned to the left-->
+            <div id="left-navbar">
+                <a href="#about" class="left-nav-link">About</a>
+                <a href="#store" class="left-nav-link">Store</a>                
+            </div>
+
+            <!--Links aligned to the right-->
+            <div id="right-navbar">
+                <a href="#gmail" class="right-nav-link">Gmail</a>
+                <a href="#images" class="right-nav-link">Images</a>
+                
+                <!--Apps icon-->
+                <div id="apps-icon-bg">
+                    <img src="images/dot-grid.png" id="apps-icon" alt="Apps menu icon" class="right-nav-link">
+                </div>
+                
+                <!--Sign in button-->
+                <button type="button" class="right-nav-link sign-in">Sign in</button>                 
+            </div>     
         </nav>
+
         <main>
+            <!--Logo-->
             <img id="logo" alt="Google logo" src="images/google-logo.png">
             <div id="search">
                 <input type="text" placeholder="">
             </div>
 
+            <!--Search buttons-->
             <div id="search-buttons">
                 <button class="buttons" type="submit">Google Search</button>
                 <button class="buttons" type="button">I'm Feeling Lucky</button>
-            </div>
-            
+            </div>     
         </main>
+        
+        <!--Bottom navigation links-->
+        <div id="footer">
+
+            <!--Links aligned to the left-->
+            <div id="left-footer">
+                <a href="#advertising" class="left-foot-link">Advertising</a>
+                <a href="#business" class="left-foot-link">Business</a>
+                <a href="#how-search-works" class="left-foot-link">How Search Works</a>
+            </div>
+
+            <!--Links aligned to the right-->
+            <div id="right-footer">
+                <a href="#privacy" class="right-foot-link">Privacy</a>
+                <a href="#terms" class="right-foot-link">Terms</a>
+                <a href="#settings" class="right-foot-link">Settings</a>
+            </div>
+        </div>
+        
     </body>
 </html>
